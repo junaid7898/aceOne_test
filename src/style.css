@@ -1,0 +1,34 @@
+:root {
+  --color-dark-primary: #1976d2;
+  --color-light-primary: #bbdefb;
+  --color-primary: #2196f3;
+
+  --color-text: #ffffff;
+  --color-text-primary: #212121;
+  --color-text-secondary: #757575;
+
+  --color-divider: #bdbdbd;
+
+  --color-accent: #8bc34a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  /* 1rem = 10px, 10px/16px = 62.5% */
+}
+
+body {
+  background-color: var(--color-text);
+}

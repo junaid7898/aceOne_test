@@ -1,0 +1,36 @@
+.home-page {
+  max-width: 120rem;
+  margin: 3rem auto;
+}
+
+.home-body {
+  /* background-color: green; */
+  width: inherit;
+}
+
+.pagination {
+  display: flex;
+  flex-flow: row wrap;
+  max-width: 50rem;
+  justify-content: space-between;
+  margin: 3rem auto;
+}
+
+.pagination-item {
+  background-color: rgb(177, 176, 176);
+  padding: 1rem;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: all 200ms;
+  margin-bottom: 1rem;
+}
+
+.pagination-item--active {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+.pagination-item:hover {
+  background-color: var(--color-primary);
+  color: #fff;
+}

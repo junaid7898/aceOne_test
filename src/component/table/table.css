@@ -1,0 +1,37 @@
+.table {
+  width: 100%;
+  background-color: var(--color-divider);
+}
+
+.table-head {
+  padding: 1rem 0;
+}
+
+.table-head th {
+  padding: 1rem 0;
+  text-transform: uppercase;
+}
+
+.table-body td {
+  padding: 2rem 0;
+  background-color: #fff;
+  text-align: center;
+}
+
+.table-body td button {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.table-body--archive {
+  color: var(--color-text);
+  background-color: var(--color-primary);
+
+  margin: 0 1rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.table-body--archived {
+  color: var(--color-primary);
+}
